@@ -1,0 +1,9 @@
+export enum EditarPerfilEnum{
+    INFORMACION_USUARIO = 1,
+
+    DS_EMAIL_USUARIO = 2,
+    DS_PASSWORD_USUARIO=3,
+    DIRECCIONES_USUARIO = 4,
+    EDITAR_DIRECCION =  5
+  }
+  

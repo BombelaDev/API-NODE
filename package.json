@@ -1,0 +1,49 @@
+{
+  "name": "Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc -w\"  \"nodemon dist/app.js\"",
+    "start": "node ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "@slack/webhook": "^6.1.0",
+    "aws-sdk": "^2.1013.0",
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "concurrently": "^7.2.1",
+    "conekta": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "google-auth-library": "^7.10.2",
+    "jsonwebtoken": "^8.5.1",
+    "messagebird": "^3.6.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.2",
+    "node-cron": "^3.0.2",
+    "node-schedule": "^2.1.0",
+    "postmark": "^2.7.8",
+    "sequelize": "^6.7.0",
+    "socket.io": "^2.4.1",
+    "toml": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.6",
+    "@types/morgan": "^1.9.3",
+    "@types/node-cron": "^3.0.5",
+    "@types/node-schedule": "^2.1.0",
+    "@types/socket.io": "^3.0.2",
+    "nodemon": "^2.0.14",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  }
+}
